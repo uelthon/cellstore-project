@@ -1,0 +1,25 @@
+export const productParse = async (product) => {
+  return{
+    name:product.name,
+    brand:product.brand,
+    procesador:{
+      speed:product.speed,
+      type:product.type
+    },
+    display:{
+      size:product.size,
+      resolution:product.resolution
+    },
+    camera:{
+      front:product.front,
+      back:product.back
+    },
+    memory:{
+      ram:product.ram,
+      rom:product.rom
+    },
+    battery:product.battery,
+    img:product.img,
+    price:product.price
+  }
+}

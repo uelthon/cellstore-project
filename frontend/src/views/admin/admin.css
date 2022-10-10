@@ -1,0 +1,79 @@
+.container-admin{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.container-admin-nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
+
+.container-admin-nav a{
+  background-color: transparent;
+}
+
+.admin-nav-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: xx-large;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 2px 2px #0d6dfd79;
+  cursor: pointer;
+}
+
+.admin-nav-link:hover{
+  background-color: #b795f3;
+  color: #fff;
+}
+
+.admin-nav-link-products{
+  background-image: url('../../statics/products.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.admin-nav-link-users{
+  background-image: url('../../statics/users.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.admin-nav-link-orders{
+  background-image: url('../../statics/orders.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.admin-nav-link-stats{
+  background-image: url('../../statics/stats.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:800px) {
+  .admin-nav-link{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .container-admin-nav{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+

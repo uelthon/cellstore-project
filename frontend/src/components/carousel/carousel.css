@@ -1,0 +1,12 @@
+
+.container-carousel-img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width:720px) {
+  .container-carousel-img{
+    height: 50vh;
+  }
+}

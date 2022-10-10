@@ -1,0 +1,23 @@
+.barchart-large{
+  display:none;
+}
+
+.toggle-brand{
+  padding: 0.375rem;
+  background-color: #f3f86a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-brand-active{
+  box-shadow: 1px 1px 2px 2px rgba(213, 217, 93, 0.5);
+}
+
+@media screen and (min-width:720px) {
+  .barchart-large{
+    display: inherit;
+  }
+  .barchart-small{
+    display: none;
+  }
+}

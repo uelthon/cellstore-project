@@ -1,0 +1,22 @@
+.container-stats{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.container-stats-charts{
+  margin-top: 82px;
+  width: 80%;
+}
+
+@media screen and (min-width:720px) {
+  .container-stats-charts{
+    margin-top: 0;
+  }
+  
+}
+

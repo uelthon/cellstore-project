@@ -1,0 +1,35 @@
+.container-card-pay{
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container-card-pay-item{
+  width: 90%;
+  padding: 1rem;
+  border: 1px solid #e3e8ee;
+  border-radius: 4px;
+}
+
+@media screen and (min-width:800px) {
+  .container-card-pay{
+    min-height: 80vh;
+  }
+  .container-card-pay-item{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .container-card-pay{
+    min-height: 50vh;
+  }
+  .container-card-pay-item{
+    width: 100%;
+  }
+  
+}
